@@ -18,5 +18,6 @@ for i in range(3):
 
   print(receipt)
 # построение и вывод диаграммы
-  diagram.bar(product, pay)
+  diagram.bar(product, pay, color = 'purple')
+  diagram.title("Соотношение продукта")
   diagram.show()
